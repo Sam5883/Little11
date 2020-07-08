@@ -126,7 +126,6 @@ BOOL wantsDeviceSpoofing, wantsCompatabilityMode, wantsiPadMultitasking;
     else %orig(CGRectSetY(frame, -24));
 }
 %end
-%end
 
 %hook SBFHomeGrabberSettings
 - (BOOL)isEnabled {
